@@ -1,0 +1,22 @@
+{
+  "name": "Donators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ethereum/compile.js",
+    "deploy": "node ethereum/deploy.js",
+    "test": "npm run build && mocha",
+    "test-only": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.1.0",
+    "mocha": "^5.1.0",
+    "solc": "^0.4.22",
+    "time-funcs": "^0.1.0",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.26"
+  }
+}
